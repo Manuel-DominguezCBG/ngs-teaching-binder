@@ -1,0 +1,13 @@
+name: ngs-teaching
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - fastqc
+  - fastp
+  - minimap2
+  - samtools
+  - bcftools
+
