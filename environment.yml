@@ -10,4 +10,5 @@ dependencies:
   - minimap2
   - samtools
   - bcftools
+  - bwa
 
