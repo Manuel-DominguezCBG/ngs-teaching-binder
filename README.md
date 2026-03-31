@@ -1,14 +1,52 @@
-# 🧬 NGS Mini-Pipeline Training (Binder)
-
-This repository contains an interactive training resource designed to introduce the basic concepts of NGS bioinformatics pipelines using real tools and simplified data.
-
-The notebooks are intended for trainees with little or no computational background and provide a hands-on approach to understanding how sequencing data is processed.
+# 🧬 Welcome to the Introduction to Clinical Bioinformatics Genomics module
 
 [![Launch in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Manuel-DominguezCBG/ngs-teaching-binder/main)
 
+Welcome! We are delighted to have you on this rotation with the Bioinformatics team at WGLS.
+
+This module follows a new learning approach that combines e-learning materials developed by **NHS England Genomics Education** with hands-on practical activities created by our bioinformatics team. You are among the first trainees to follow this combined format — so your experience and feedback will be genuinely valuable in shaping how we teach this in the future.
+
 ---
 
-## 🗺️ Notebooks
+## 📚 Step 1 — Complete the prerequisite e-learning first
+
+Before working through the practical notebooks below, you should complete the following two courses on the **NHS England Genomics Training Academy (GTAC)** virtual learning environment:
+
+| Course | Purpose |
+|---|---|
+| **Fundamentals of Clinical Bioinformatics: Pipelines and Data** | Covers the key steps in a bioinformatics pipeline and common file formats — the theory behind everything you will do practically here |
+| **Introduction to Bioinformatics** | A learning package designed specifically for first-year STP trainees on a clinical bioinformatics genomics rotation |
+
+### How to access
+
+1. Go to the GTAC virtual learning environment (PGVLE): **https://pgvle.co.uk/login/index.php**
+2. Log in with your account. If you do not yet have an account, contact your local education or training lead to receive a registration pack
+3. For more information about GTAC: **https://www.genomicseducation.hee.nhs.uk/about-us/gtac/**
+
+### Learning outcomes
+
+After completing the e-learning, you will be able to:
+
+- Define the term 'bioinformatics'
+- Describe how bioinformatics analysis sits within a typical massively parallel sequencing (NGS) sample pathway
+- List the key steps in a typical bioinformatics pipeline, including pre-processing, alignment, variant calling, filtering and annotation
+- Describe the common file formats used for storing biological data
+
+### Module competencies
+
+We recommend that before diving into the detail, you take the **10 competencies** for this module and quickly check that the content provided by Genomics Education covers each one. If you feel anything is not well addressed, please let us know — your input helps us improve.
+
+👉 [View the STP module competencies (S-BG-R1-0)](https://curriculumlibrary.nshcs.org.uk/stp/module/S-BG-R1-0/)
+
+---
+
+## 🖥️ Step 2 — Work through the practical notebooks
+
+Once you have completed the e-learning, this repository gives you a hands-on environment to see a real NGS bioinformatics pipeline in action. We believe the best way to understand how bioinformaticians work is to interact with the tools and data ourselves.
+
+We have built this using **Binder** — a free cloud platform that lets you run Jupyter notebooks directly in your browser, with all the bioinformatics tools pre-installed. No software installation is needed on your end.
+
+### Notebooks
 
 | Notebook | Topic |
 |---|---|
@@ -18,38 +56,34 @@ The notebooks are intended for trainees with little or no computational backgrou
 | 3 — Looking for variants | Variant calling with bcftools |
 | 4 — What is a VCF file? | VCF format in depth, filtering, clinical context |
 
----
+### How to launch
 
-## 🚀 Launch in Binder
-
-Click the badge above or the link below to launch the full environment in your browser — no installation required:
+Click the badge at the top of this page, or here:
 
 [![Launch in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Manuel-DominguezCBG/ngs-teaching-binder/main)
 
----
+> ⚠️ **Important:** The notebooks must be completed in order (0 → 1 → 2 → 3 → 4). Each notebook generates files that the next one depends on.
 
-## 📦 What is Binder?
+### How to run cells
 
-Binder allows you to run Jupyter Notebooks in a fully configured environment hosted in the cloud.
-
-- No software installation needed
-- Runs entirely in your browser
-- Safe, isolated environment (you cannot break anything)
+- Read the explanations and follow the instructions step by step
+- Run each cell using **Shift + Enter**
+- Linux commands are prefixed with `!` (e.g. `!ls`, `!fastqc`)
 
 ---
 
-## ▶️ How to use this repository
+## 🤝 Support during your rotation
 
-1. Click the Binder badge above to launch
-2. Open notebook `0` first and work through them in order
-3. Read the explanations and follow the instructions step by step
-4. Run each cell using **Shift + Enter**
-5. Explore the outputs and reflect on the results
+You are the first group to follow this combined learning format, so if something does not work, is unclear, or simply does not make sense — please say so. Manuel is available throughout your two weeks, and we will minimise other commitments to be available on demand for any Teams or in-person meeting you need.
+
+In addition to that, we have planned a series of sessions where we will review topics that can feel particularly abstract, and you are also welcome to propose topics you would like us to cover. We will also invite you to some of our internal bioinformatics meetings and team discussions so you can get a real sense of how we work and what our role looks like in the context of clinical genomics.
 
 ---
 
-## 🖥️ Running commands in notebooks
+## 💬 Feedback
 
-- By default, notebook cells run **Python code**
-- To run Linux commands (e.g. `ls`, `fastqc`, `zcat`), prefix them with:
+As the first cohort to follow this new format, your feedback is essential. At the end of the rotation, we will share a short feedback form — please take a few minutes to complete it. It will directly influence how this resource develops for future trainees.
 
+---
+
+*Developed by the Bioinformatics team, WGLS — in collaboration with NHS England Genomics Education resources.*
