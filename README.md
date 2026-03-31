@@ -84,6 +84,20 @@ In addition to that, we have planned a series of sessions where we will review t
 
 As the first cohort to follow this new format, your feedback is essential. At the end of the rotation, we will share a short feedback form — please take a few minutes to complete it. It will directly influence how this resource develops for future trainees.
 
+### A personal note on workload
+
+Between the GTAC materials and our own resources, we are aware that the total volume of content can feel overwhelming — especially because the GTAC courses include activities before, during, and after. We are not asking you to do everything.
+
+The honest reality is that as educators, one of our biggest challenges is that we rarely know the background of each trainee in advance. As a result, the materials we provide tend to cast a wide net and cover as much as possible. Our personal recommendation is to:
+
+1. **Start by reading the 10 competencies** for this module so you know exactly what you are expected to demonstrate
+2. **Skim the available content** and use it strategically, focusing on the areas most relevant to your needs
+3. **Use the GTAC activities** as a basis for the assessments you need to submit to us
+
+On the subject of assessments — we give you a lot of flexibility. You can cover more than one competency with a single piece of work, and the format is up to you. Trainees in previous years have produced PowerPoint presentations with detailed notes in the comments, for example. There is no single right answer here.
+
+And if at any point you feel lost — Manuel is there!
+
 ---
 
 *Developed by the Bioinformatics team, WGLS — in collaboration with NHS England Genomics Education resources.*
