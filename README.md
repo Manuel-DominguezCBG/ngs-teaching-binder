@@ -58,9 +58,21 @@ We have built this using **Binder** — a free cloud platform that lets you run 
 
 ### How to launch
 
-Click the badge at the top of this page, or here:
+**1.** Click the Binder badge at the top of this page (or here):
 
 [![Launch in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Manuel-DominguezCBG/ngs-teaching-binder/main)
+
+**2.** Binder will start building the environment. This can take a few minutes — you will see a loading screen like this:
+
+![Binder loading](images/1.png)
+
+**3.** Once it finishes, the JupyterLab interface will open. Click on the **notebooks** folder:
+
+![JupyterLab interface](images/2.png)
+
+**4.** You will see the list of notebooks on the left. Start with notebook `0`:
+
+![Notebook list](images/3.png)
 
 > ⚠️ **Important:** The notebooks must be completed in order (0 → 1 → 2 → 3 → 4). Each notebook generates files that the next one depends on.
 
