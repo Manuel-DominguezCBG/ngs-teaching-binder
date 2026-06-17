@@ -11,7 +11,4 @@ dependencies:
   - samtools
   - bcftools
   - bwa
-  - pip
-  - pip:
-    - igv-notebook
 

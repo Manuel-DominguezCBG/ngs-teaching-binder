@@ -52,7 +52,7 @@ We have built this using **Binder** — a free cloud platform that lets you run 
 |---|---|
 | 0 — Introduction and basic Linux commands | The environment, terminal basics, Linux commands |
 | 1 — Where does the data come from? | Sequencing concepts, FASTQ files, FastQC |
-| 2 — It is time to map | BWA alignment, SAM/BAM, samtools, IGV visualisation |
+| 2 — It is time to map | BWA alignment, SAM/BAM, samtools |
 | 3 — Looking for variants | Variant calling with bcftools |
 | 4 — What is a VCF file? | VCF format in depth, filtering, clinical context |
 
