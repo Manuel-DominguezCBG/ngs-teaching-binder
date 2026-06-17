@@ -1,6 +1,12 @@
 from Bio import SeqIO
 # 🧬 Step 1 — Extract a small reference region
 #samtools faidx /mnt/data1/db/gcp-public-data--broad-references/hg38/v0/GIABv1mask/Homo_sapiens_assembly38.GIABv1mask.fasta  chr1:100000-101000 > mini_reference.fa
+#
+# IMPORTANT: samtools names the extracted contig "chr1:100000-101000". The colon
+# breaks region parsing in downstream tools (IGV cannot navigate to a contig whose
+# name contains ":"), so rename the contig header to a colon-free name before use:
+#   sed -i 's/^>chr1:100000-101000/>chr1_100000_101000/' mini_reference.fa
+# Then build the BWA index:  bwa index mini_reference.fa
 
 # 🧬 Step 2 — Introduce a mutation
 record = SeqIO.read("mini_reference.fa", "fasta")
